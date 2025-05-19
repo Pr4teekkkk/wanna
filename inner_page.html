@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="inner_page.css">
+        
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">You sure!!!</h1>
+                <button class="btn" style="margin-left: 190px;">Yes</button>
+            </div>
+            <div class="gif_container">
+                <img src="https://media0.giphy.com/media/T86i6yDyOYz7J6dPhf/giphy.gif">
+            </div>
+        </div>
+        <audio id="song">
+            <source src="audio.mp3" type="audio/mp3">
+        </audio>
+       <script>
+        window.addEventListener('click', () => {
+            document.getElementById("song").play();
+        });
+            
+       </script>
+    </body> 
+</html>
